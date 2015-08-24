@@ -35,6 +35,9 @@ public:
         if (ScreenCaptureClass->objectName().isEmpty())
             ScreenCaptureClass->setObjectName(QStringLiteral("ScreenCaptureClass"));
         ScreenCaptureClass->resize(600, 400);
+        QIcon icon;
+        icon.addFile(QStringLiteral(":/ScreenCapture/scissors_2.png"), QSize(), QIcon::Normal, QIcon::Off);
+        ScreenCaptureClass->setWindowIcon(icon);
         centralWidget = new QWidget(ScreenCaptureClass);
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
         ScreenCaptureClass->setCentralWidget(centralWidget);

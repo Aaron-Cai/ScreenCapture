@@ -13,6 +13,10 @@
   <property name="windowTitle">
    <string>ScreenCapture</string>
   </property>
+  <property name="windowIcon">
+   <iconset resource="screencapture.qrc">
+    <normaloff>:/ScreenCapture/scissors_2.png</normaloff>:/ScreenCapture/scissors_2.png</iconset>
+  </property>
   <widget class="QWidget" name="centralWidget"/>
   <widget class="QStatusBar" name="statusBar"/>
   <widget class="QMenuBar" name="menuBar">
