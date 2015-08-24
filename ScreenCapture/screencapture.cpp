@@ -8,8 +8,8 @@ ScreenCapture::ScreenCapture(QWidget *parent)
 	tray = new QSystemTrayIcon(this);
 	tray->setToolTip("Screen Capture");
 	tray->show();
-	tray->showMessage("Hello!", "Screen Capturer On", QSystemTrayIcon::Information, 100);
-	tray->setIcon(QIcon(":/ScreenCapture/scissors_2.png"));
+	//tray->showMessage("Hello!", "Screen Capturer On", QSystemTrayIcon::Information, 100);
+	tray->setIcon(QIcon(":/ScreenCapture/APPICON.ico"));
 	QMenu *trayMenu = new QMenu();
 	QAction *quit = new QAction("Quit", this);
 	QAction *capture = new QAction("Capture Screen", this);

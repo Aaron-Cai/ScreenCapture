@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/ScreenCapture">
         <file>scissors_2.png</file>
+        <file>APPICON.ico</file>
     </qresource>
 </RCC>
